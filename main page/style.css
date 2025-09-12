@@ -1,0 +1,121 @@
+body {  
+
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1rem; 
+  margin: 0; 
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 1.5em;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.nav-right {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.nav-left {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-icon {
+    margin-right: 1em;
+}
+
+li {
+    margin-right: 1em; 
+}
+
+.header-wrapper {
+    background-image: url("./images/learning-header.jpg");
+    background-size: cover;
+    color: white;
+    padding: 8em 3em 3em 3em;
+
+}
+
+h1 {
+    font-size: 2em;
+}
+
+article {
+    margin: 2em 1em; 
+}
+
+.card-wrapper {
+    margin: 4em 2em; 
+
+}
+
+.card-wrapper-hidden {
+    margin: 4em 2em;
+    display: none;  
+
+}
+
+
+.card-image {
+
+    width: 100%;
+    border-radius: 10px; 
+    margin: 0 auto; 
+    
+}
+
+.blog-articles {
+        display: none;
+    }
+
+.view-more a {
+    color: black; 
+    display: block;
+    text-align: center;
+    margin: 5em 0; 
+    font-weight: 600;
+
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 3em; 
+    font-size: 2em; 
+
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.copyright {
+    font-weight: 200;
+    margin-top: 0; 
+    
+}
+
+
+
+@media (min-width: 1280px){
+    article {
+         display: grid; 
+         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card-wrapper-hidden {
+        display: block;
+    }
+}
