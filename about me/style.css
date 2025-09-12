@@ -35,10 +35,12 @@ li {
     margin-right: 1em; 
 }
 
+
+#about-img {
+    width: 182px; 
+    border-radius: 90px;
+}
 .header-wrapper {
-    background-image: url("./images/learning-header.jpg");
-    background-size: cover;
-    color: white;
     padding: 8em 3em 3em 3em;
 
 }
@@ -46,6 +48,14 @@ li {
 h1 {
     font-size: 2em;
 }
+
+main {
+    margin: 4em 2em; ;
+}
+
+.recent {
+    text-align: center;
+    display: block; }
 
 article {
     margin: 2em 1em; 
@@ -110,6 +120,29 @@ footer p {
 
 
 @media (min-width: 1280px){
+
+
+    .header-wrapper {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .heading-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2em; 
+    }
+
+     .heading-text h1 {
+        margin: 0;
+     }
+
+     main {
+        padding: 0 3em 0 3em; 
+     }
+
+
     article {
          display: grid; 
          grid-template-columns: 1fr 1fr 1fr;
